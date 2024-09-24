@@ -69,6 +69,7 @@ export const Register = () => {
                             {...form.getInputProps('last_name')}
                             label={t`Last Name`}
                             placeholder={t`Smith`}
+                            required
                         />
                     </InputGroup>
 
